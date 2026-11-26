@@ -5,10 +5,10 @@ namespace Db
     public class Connection
     {
 
-        private static readonly string server = "DESKTOP-MHUELB2\\SQLEXPRESS";
+        private static readonly string server = "localhost\\SQLEXPRESS";
         private static readonly string database = "SoNFinanceiro";
         private static readonly string user = "sa";
-        private static readonly string password = "dev123";
+        private static readonly string password = "SUA_SENHA";
 
 
         public static string GetStringConnection() =>
